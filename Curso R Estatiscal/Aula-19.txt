@@ -1,0 +1,19 @@
+# Relembrando a matriz
+
+A<-matrix(1:20,4,5)
+v<-c(400,401,500,340)
+
+A2<-cbind(A,v)
+
+A2<-rbind(A,v)
+
+#Retirando a linha 5
+A2[-5,]
+
+#Retirando a segunda coluna
+A2[,-2]
+
+# Retidando uma linha e uma coluna ao mesmo tempo
+
+A2[-3,-4]
+

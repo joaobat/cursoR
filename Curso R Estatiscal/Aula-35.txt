@@ -1,0 +1,30 @@
+
+
+
+# Modificando as informações da lista
+
+
+
+list1$Idades<-c(33,70,19)
+
+list1$Cidade<-c("Recife","Olinda","Jaboatão")
+
+list1$Cidade[2]<-c("Brasília")
+
+list1$Idades[3]<-90
+
+
+list1$Gastos[,,1]<- list1$Gastos[,,1]*100
+
+
+list1$Gastos[,,3]<- list1$Gastos[,,1] + list1$Gastos[,,2]
+
+
+ar<-list1$Gastos
+
+ar[,,3]
+
+ar[,,3]*100
+
+
+

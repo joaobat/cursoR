@@ -1,0 +1,45 @@
+#### Acessando as informações do DataFrame
+
+#Acessando os valores
+
+dados[1,]
+
+dados[3,]
+
+dados[2,]
+
+
+dados[1:2,]
+
+dados[c(1,3),]
+
+dados[,2]
+
+dados[,3]
+
+dados[,1]
+
+dados[,2:3]
+
+dados[2,2]
+
+dados[2:3,1:2]
+
+
+#acessando as variáveis
+
+names(dados)
+attach(dados)
+
+dados$Idade
+
+dados$Nome
+
+dados$Genero
+
+
+dados$Idade[1:2]
+
+a<-dados$Idade
+
+

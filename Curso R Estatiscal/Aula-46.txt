@@ -1,0 +1,90 @@
+# Decision Making
+
+
+x<-3
+
+if(x==9)
+{
+
+print("Você digitou o 9")
+
+}
+
+
+
+
+x<-9
+
+if(x==9)
+{
+
+print("Você digitou o 9")
+
+}
+
+
+
+##
+
+x<-3
+if(x==9)
+{
+
+print("Você digitou o 9")
+
+}
+
+
+if(x==8)
+{
+
+print("Você digitou o 8")
+
+}
+
+
+
+##
+
+
+
+
+
+x<-8
+if(x==9)
+{
+
+print("Você digitou o 9")
+
+}
+
+
+if(x==8)
+{
+
+print("Você digitou o 8")
+
+}
+
+
+
+##
+
+
+
+
+x<-8
+if(x<9)
+{
+
+print("Você digitou um número menor que 9")
+
+}
+
+
+if(x==8)
+{
+
+print("Você digitou o 8")
+
+}

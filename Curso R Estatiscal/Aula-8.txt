@@ -1,0 +1,25 @@
+
+## Operações com vetores  ((somas, subtrações, multipl., produto)
+
+x<-c(2,4,6)
+y<-c(3,5,7)
+
+x-2
+x+2
+x*2
+x^2
+x+y
+x-y
+x*y
+
+idades<-c(34,43,20,50)
+
+min(idades)
+max(idades)
+mean(idades)
+
+idades2<-idades*2
+a<-idades+idades2
+
+idades2<-idades^2
+

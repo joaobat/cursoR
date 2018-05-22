@@ -1,0 +1,8 @@
+#retirando elementos
+idades[-2]
+
+#modificando
+
+idades[2]<-90
+idades[10:12]<-0
+idades

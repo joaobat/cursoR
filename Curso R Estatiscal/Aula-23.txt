@@ -1,0 +1,15 @@
+# Arrays
+
+
+A<-matrix(1:20,4,5)
+
+#ou
+
+A<-array(1:20,dim=c(4,5))
+
+
+# Criando o array
+A<-array(1:20,dim=c(4,5,4))
+
+A<-array(0,dim=c(4,5,4))
+

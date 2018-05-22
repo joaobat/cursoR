@@ -1,0 +1,20 @@
+
+### Operações com Arrays (parte 3)
+
+apply(dados,c(2),sum)
+
+dados[1,,]
+
+apply(dados[1,,],c(1),sum)
+
+
+apply(dados[1,,],c(2),sum)
+
+
+apply(dados[,2,],c(1),sum)
+
+apply(dados[,3,],c(1),sum)
+
+apply(dados[,,1],c(1),sum)
+
+apply(dados[,,3],c(2),sum)

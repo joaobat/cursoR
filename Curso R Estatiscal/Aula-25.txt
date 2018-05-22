@@ -1,0 +1,18 @@
+#Colocando nomes para os elementos do Array 
+
+v1<-c(40,300,150)
+v2<-c(50,120,230)
+v3<-c(24,15,23)
+
+A<-array(c(v1,v2,v3),dim=c(3,3,3))
+
+#Criando três vetores de nomes
+
+r.names<-c("Marcos","João","Maria")
+
+c.names<-c("Gastos com Alimentação","Gastos com Moradia","Gastos com Transporte")
+
+matrizes.names<-c("Janeiro","Fevereiro","Março")
+
+
+dados<-array(c(v1,v2,v3),dim=c(3,3,3),dimnames=list(r.names,c.names,matrizes.names))

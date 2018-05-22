@@ -1,0 +1,15 @@
+
+#adicionando itens da lista
+
+list1[4] <- c("Mensagem de atenção")
+
+names(list1)[4]<-"AVISO"
+
+
+
+  
+#removendo itens da lista
+
+list1[4] <- NULL
+
+

@@ -1,0 +1,18 @@
+#### Criação de array (parte 2)  
+
+A<-array(1:16,dim=c(4,4,3))
+
+A<-array(c("Recife","Olinda","Jaboatão"),dim=c(4,4,3))
+
+dim(A)
+
+
+
+# Criação de Array usando Vetores
+
+
+vetor1<-c(20,40,50)
+vetor2<-c("Camila","Paulo","Pedro","Marcos","mMria")
+
+B<-array(c(vetor1,vetor2),dim=c(3,4,2))
+

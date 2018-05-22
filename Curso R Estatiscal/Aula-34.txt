@@ -1,0 +1,51 @@
+
+idades<-c(20,40,50)
+cidade<-c("Los Angeles", "Londres","Paris")
+
+c.names <- c("Gasto com Alimentação","Gasto com Moradia","Gasto com Transporte")
+r.names <- c("Marcos","João","Maria")
+matrix.names <- c("Janeiro","Fevereiro","Março")
+gastos<-array(1:20,dim = c(3,3,3),dimnames = list(r.names,c.names,matrix.names))
+
+
+list1 <- list(idades,cidade,gastos)
+
+names(list1)<-c("Idades","Cidade","Gastos")
+
+list1
+
+
+
+
+#### acessando as informações da lista
+
+list1[1]
+list1[2]
+list1[3]
+
+list1$Idades
+
+list1$Idades[1]
+
+
+list1$Cidade
+
+a<-list1$Cidade
+
+a[1]
+a[2]
+a[3]
+a[2:3]
+a[1:2]
+a[c(1,3)]
+
+list1$Cidade[c(1,3)]
+
+
+gt<-list1$Gastos
+gt[,,3]
+
+
+
+
+

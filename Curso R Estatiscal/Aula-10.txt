@@ -1,0 +1,7 @@
+######## SEQUÊNCIAS 
+
+1:30
+35:60
+
+seq(1,10)
+seq(1,10,2) #a passos de 2

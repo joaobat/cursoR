@@ -1,0 +1,26 @@
+
+###Adicionando e Removendo INDIVÍDUOS/casos no DataFrame
+
+#Adicionando casos
+
+Nomes<-c("João","Maria","Marcos")
+Idade<-c(23,34,50)
+Genero<-c("Masculino","Feminino","Masculino")
+
+dados<-data.frame(Nomes,Idade,Genero)
+
+
+dados[4,]<-c("Paula",70,"Feminino")
+
+str(dados)
+
+
+dados$Nomes<-as.character(dados$Nomes)
+dados[4,]<-c("Paula",70,"Feminino")
+
+dados$Idade<-as.numeric(dados$Idade)
+
+
+#Removendo casos
+
+dados<-dados[-4,]

@@ -1,0 +1,48 @@
+
+
+#Curiosidades sobre matrizes
+
+
+A<-matrix(1:25,5,5)
+
+dim(A)
+
+det(A) #Determinante 
+diag(A)
+
+B<-A[,-3]
+dim(B)
+t(B)  #Transpor matrizes
+dim(B)
+
+solve(A) #inversa de uma matriz A
+
+#Imagem de matrizes
+
+image(A)
+
+A[,1]<-1000
+image(A)
+
+A[,1]<-100
+image(A)
+
+A[,1]<-50
+image(A)
+
+A[1,]<-c(30,0,400,90,170)
+A[2,]<-c(300,2,-3,9,17)
+image(A)
+
+
+
+contour(A)
+A[3,]<-2
+contour(A)
+
+persp(A)
+
+
+image(volcano)
+contour(volcano)
+persp(volcano)

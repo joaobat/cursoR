@@ -1,0 +1,25 @@
+
+######################### LISTAS
+
+list(4,c("João","marcos","Maria"),matrix(0,4,5),mean)
+
+
+idades<-c(30,40,55)
+Genero<-c("Mas","Mas","Fem")
+Cidades<-c("Los Angeles","Londres","São Paulo")
+
+r.names <- c("Marcos","João","Maria")
+
+c.names <- c("Gasto com Alimentação","Gasto com Moradia","Gasto com Transporte")
+
+gastos<-array(1:20,dim = c(3,3,3),dimnames = list(r.names,c.names,c("jan","Fev","Mar")))
+
+#juntando tudo numa lista
+list1 <- list(idades,Genero,Cidades,gastos)
+
+
+#Dando nomes aos elementos da lista
+names(list1)<-c("Idades","Gênero", "Cidade","Gastos (R$)")
+
+list1
+

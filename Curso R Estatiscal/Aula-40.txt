@@ -1,0 +1,23 @@
+
+#####  Modificando elementos do DataFrame
+
+dados$Idade
+
+dados$Idade<-c(40,45,39)
+
+dados$Idade[3]
+
+dados$Idade[3]<-90
+
+dados$Genero<-c("Feminino","Masculino","Masculino")
+
+
+dados$Genero[2]<-c("Feminino")
+
+dados$Genero[3]<-c("Masculino")
+
+dados$Genero[1]<-c("Masculino")
+
+
+
+dados[2,2]

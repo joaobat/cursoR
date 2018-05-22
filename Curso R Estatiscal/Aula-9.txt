@@ -1,0 +1,32 @@
+
+idades2<-log(idades)
+
+min(idades)
+max(idades)
+
+#ordenando  
+sort(idades)
+
+v <- c(2,5.5,6,9)
+t <- c(8,2.5,14,9)
+v>t
+v==t
+v<=t
+v!=t
+
+# União, intercecção e diferenças
+a<-c(1,2,3,4,5,6,7,8,9)
+b<-c(2,4,6,8,20)
+
+union(a,b)
+intersect(a,b)
+setdiff(a,b)
+
+# pesquisaa e remoção
+
+ls()
+ls(pattern = "var") #procura as variáveis salvas, com o padrão "var"
+
+rm(idades2)
+
+

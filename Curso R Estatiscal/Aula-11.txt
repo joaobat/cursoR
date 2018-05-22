@@ -1,0 +1,18 @@
+#usando repetições
+
+rep(2,5) # 2 repetido 5 vezes
+
+rep("Paulo",4) # repete "Paulo" 4 vezes
+rep(1:4,3) # repete uma seqüência 2 vezes
+rep(idades,4) #repetir o vetor "idades" 4 vezes
+rep(1:4,each=3) # dado uma sequencia (1:4), repetir CADA valor 3 vezes
+rep(idades,each=2) #cada elemento do vetor repetido 2 vezes
+
+rep(c("Bra","sil"),5) # repete A e B cinco vezes.
+rep(c("Bra","sil"),each=5) # repete A e B cinco vezes.
+
+rep(c("Bra","Si","Lan","Dia"),c(3,2,7,4)) #
+
+cidades<-c("Salvador","Recife","Olinda")
+rep(cidades,each=2)
+

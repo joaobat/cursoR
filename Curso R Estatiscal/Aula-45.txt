@@ -1,0 +1,15 @@
+
+#### Criando loops com While()
+
+x<-1
+
+while(x<=10)
+  {
+   
+       print(x)
+       
+       #incrementando x
+        x<-x+1
+  }
+
+

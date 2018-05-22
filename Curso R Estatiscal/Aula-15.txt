@@ -1,0 +1,5 @@
+v1<-c("Recife","Olinda","Escada")
+v2<-c(30,40,50)
+cbind(v1,v2)
+rbind(v1mv2)
+

@@ -1,0 +1,13 @@
+
+##### MATRIZES: coleção de vetores em linhas e colunas, sendo eles do mesmo tipo (numérico ou de caracteres).
+
+#usando vetores
+
+a<-1:3
+b<-4:6
+
+A<-cbind(a,b)
+B<-rbind(a,b)
+
+dim(A)
+dim(B)

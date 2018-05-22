@@ -1,0 +1,13 @@
+# Combinação de Listas
+
+list2<-list(c("2017","2018","2019"),40,50)
+
+names(list2)<-c("Ano","Número1","Número2")
+
+
+#Combinando as duas listas
+
+list3<-c(list1,list2)   #List1 criamos nas aulas anteriores
+
+names(list3)
+

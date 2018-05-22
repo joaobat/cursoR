@@ -1,0 +1,42 @@
+#################CONSTRUINDO SUAS PRÓPRIAS FUNÇÕES ###############
+
+## Operador lógico "=="
+
+3==4     # 3 é igual a 4?
+
+x<-c(4,5,12,3)
+
+x[2]==4
+x[2]==5 ( o segundo elemento de x é igual a 5?
+
+
+## Operador lógico "!="  (diferente)
+
+
+4!=4
+
+4!=5
+
+x!=5
+
+
+## Operador lógico ">"  (maior)
+4>5
+4>2
+x>5
+
+## Operador lógico ">="  (maior ou igual)
+x>=5
+
+
+## Operador lógico "<"  (menor)
+x<7
+
+## Operador lógico "<="  (menor ou igual)
+x<=4
+
+
+
+
+
+

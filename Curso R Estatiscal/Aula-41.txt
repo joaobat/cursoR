@@ -1,0 +1,31 @@
+# Adicionando ou Removendo variáveis no Data Frame
+
+Nome<-c("João","Maria","Marcos")
+Idade<-c(40,45,90)
+Genero<-c("Masculino","Feminino","Feminino")
+
+dados<-data.frame(Nome,Idade,Genero)
+
+
+dados$Cidade<-c("Recife","Olinda","Jaboatão")
+
+dados
+
+dados$Renda<-c(4000,5000,5500)
+
+dados
+
+dados$Renda
+
+
+#Removendo Renda
+
+dados<-dados[,-5]
+
+
+#Removendo Cidade
+
+dados<-dados[,-4]
+
+#outra forma (retirando várias colunas/variáveis ao mesmo tempo)
+dados[,-(3:5)]

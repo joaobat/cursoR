@@ -1,0 +1,27 @@
+
+#################### FATORES 
+ 
+ variável quantitativa por fator?
+  Ex: pesos por Estado Civil
+ 
+ est_civ<-c("Casado","Solteiro","Divorciado","Casado","Casado","Casado","Outro","Solteiro")
+ 
+ est_civ
+
+#Transformando em fator
+a<-factor(est_civ)
+ 
+
+# Alterando a ordem dos níveis  (atribuindo gradatividade aos níveis do fator)
+
+ est_civ<-c("Casado","Solteiro","Divorciado","Casado","Casado","Casado","Outro","Solteiro")
+ a<-factor(est_civ,levels=c("Solteiro","Casado","Divorciado","Outro")
+    
+
+
+### criando um fator através da função gl(n, k, labels)  # n: quantidade de níveis,  k  repetições
+
+estado_civil<-gl(4,2,labels=c("Solteiro","Casado","Divorciado","Outro"))
+
+
+

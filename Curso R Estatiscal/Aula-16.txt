@@ -1,0 +1,8 @@
+
+#Criando matrizes usando o comando matrix()
+
+
+m<-matrix(1:8,2,4)
+
+m<-matrix(0,3,2)
+m<-matrix( c('a','a','b','c','b','a'), nrow = 2, ncol = 3, byrow = TRUE)

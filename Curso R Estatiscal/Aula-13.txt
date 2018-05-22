@@ -1,0 +1,13 @@
+
+### Amostras aleatórias
+
+
+a<-sample(1:100,5) #5 valores entre 1 e 100
+a<-sample(1:10,3,replace=TRUE)
+
+sort(a)  #ordenar crescente
+
+sort(a,decreasing=TRUE)  #ordenar decrescente
+
+rank(a)  #o maior rank é o maior número
+

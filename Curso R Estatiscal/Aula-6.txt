@@ -1,0 +1,5 @@
+## Acessar/modificar elementos do vetor
+
+idades[2]
+idades[1:3]
+cidades[c(1,3)]

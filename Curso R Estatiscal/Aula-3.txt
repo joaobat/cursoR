@@ -1,0 +1,7 @@
+########################   CITAÇÕES E DEMONTRAÇÃO ###########
+
+#como citar o R
+citation()
+demo(persp)
+demo(graphics)
+

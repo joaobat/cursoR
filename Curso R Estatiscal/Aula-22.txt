@@ -1,0 +1,11 @@
+#Colocando nomes nas linhas e nas colunas da matriz
+
+A<-matrix(0,3,3)
+
+ncolunas<-c("Idade","Sexo","Estado Civil")
+
+nlinhas<-c("Paulo","João","Maria")
+
+
+A<-matrix(0,3,3,dimnames=list(nlinhas,ncolunas))
+

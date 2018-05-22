@@ -1,0 +1,15 @@
+################ R COMO CALCULADORA
+
+
+#Operadores (+ - /  *  ^ ) e ordem das operações
+
+#funções prontas
+sqrt(9)
+sin(3)
+cos(5)
+prod(2,4)
+abs(-6)
+log(3,10)
+factorial(5)
+help(log)  
+

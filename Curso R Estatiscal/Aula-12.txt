@@ -1,0 +1,6 @@
+rep(c("Bra","sil"),5) # repete A e B cinco vezes.
+rep(c("Bra","sil"),each=5) # repete A e B cinco vezes.
+
+rep(c("Bra","Si","Lan","Dia"),c(3,2,7,4)) #
+rep(cidades,c(3,5,7))
+

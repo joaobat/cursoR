@@ -1,0 +1,21 @@
+# Criando um DataFrames
+
+Nome<-c("João","Maria","Marcos")
+idade<-c(23,34,50)
+Genero<-c("Masculino","Feminino","Masculino")
+
+dados<-data.frame(Nome,Idade,Genero)
+
+str(dados)
+
+dim(dados)
+
+ncol(dados)
+
+nrow(dados)
+
+colnames(dados)
+
+names(dados)
+
+summary(dados)
